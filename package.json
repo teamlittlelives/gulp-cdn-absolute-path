@@ -12,10 +12,10 @@
 		"name": "anhulife",
 		"email": "anhulife@gmail.com"
 	},
-	"homepage": "https://github.com/anhulife/gulp-cdn-absolute-path",
+	"homepage": "https://github.com/teamlittlelives/gulp-cdn-absolute-path.git",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:anhulife/gulp-cdn-absolute-path.git"
+		"url": "git@github.com/teamlittlelives/gulp-cdn-absolute-path.git"
 	},
 	"scripts": {
 		"test": "mocha"
