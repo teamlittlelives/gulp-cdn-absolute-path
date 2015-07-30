@@ -40,9 +40,9 @@ module.exports = function (options) {
 			if(/^\//.test(filePath)){
 				relative = filePath.replace(/^\//, '');
 			}else{
-				if(mainPath.indexOf(assetAbsolute) !== -1){
+				/*if(mainPath.indexOf(assetAbsolute) !== -1){
 					relative = path.relative(asset, path.resolve(asset, mainPath, filePath));
-				}
+				}*/
 			}
 			return relative ? content.replace(filePath, url.resolve(cdn, relative)) : content;
 		});
